@@ -1,5 +1,113 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
 }
+ /* Header */
+header{
+    background-color: black;
+    height: 100vh;
+}
+
+.navbar{
+    margin-top: 2.5rem;
+    background-color: white !important;
+}
+
+.nav__container {
+  position: relative;
+}
+
+.navbar-brand {
+  color: #189a46 !important;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-expand-lg .navbar-nav li {
+  margin-right: 10px !important;
+}
+
+header .navbar-nav li a{
+    color: black !important;
+}
+
+header .navbar-nav li.active a {
+  color: #189a46 !important;
+}
+
+header .navbar-nav li::after {
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: green;
+  display: block;
+  margin-left: 5px;
+  transition: all 0.5s;
+}
+
+header .navbar-nav li:hover::after {
+  width: 80%;
+}
+
+header .navbar-nav li:hover a {
+  color: #189a46 !important;
+}
+
+.navbar .navbar-collapse{
+    text-align: center;
+}
+
+header .navbar-toggler {
+  background-color: #189a46;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  padding: 0;
+}
+
+header .navbar-toggler span .fa-solid {
+  font-size: 1.5rem;
+  color: white;
+  line-height: 10px;
+}
+
+header .navbar-toggler:active {
+  border: 2px solid orange;
+}
+
+header .theme__switch {
+  color: black;
+}
+
+header .theme__switch i {
+  font-size: 1.3rem;
+  transform: rotateZ(-25deg);
+}
+
+@media screen and (min-width: 0px) {
+  header .theme__switch {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+  }
+  header .navbar-toggler {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+    header .theme__switch {
+      position: static;
+    }
+    header .navbar-toggler {
+      margin-left: auto;
+    }
+  }
