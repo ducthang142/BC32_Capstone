@@ -257,7 +257,7 @@ header .theme__switch i {
 
 .carousel__content .btn__white {
   background-color: white;
-  color: #189a46;
+  color: #189a46 !important;
   margin-right: 10px;
 }
 
@@ -861,12 +861,12 @@ footer .footer__bottom {
   opacity: 0.8;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   footer .footer__top ul li:first-of-type br {
     display: inline;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   footer .footer__top ul li:first-of-type br {
     display: none;
   }
