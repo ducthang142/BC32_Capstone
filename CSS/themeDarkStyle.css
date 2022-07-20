@@ -791,7 +791,11 @@ button:focus {
     padding: 1rem;
     margin-bottom: 1rem;
   }
+  #bottom .bottom__contact form div{
+    flex-direction: column;
+  }
 }
+
 /* End Bottom */
 
 /* Footer */
