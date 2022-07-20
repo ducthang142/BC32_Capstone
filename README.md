@@ -1,6 +1,5 @@
 # BC32_Capstone
-Bùi Đức Thắng
-Châu Lâm Thanh Khuyên
+Bùi Đức Thắng, Châu Lâm Thanh Khuyên.
 
 Link deploy
 Theme Light: https://ducthang142.github.io/BC32_Capstone/themeLight.html 
