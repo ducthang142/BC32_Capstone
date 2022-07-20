@@ -12,3 +12,10 @@ Link youtube
 Bùi Đức Thắng: https://www.youtube.com/watch?v=KgXW8XGFRJo&ab_channel=Bin
 
 Châu Lâm Thanh Khuyên: 
+
+Link deploy
+Theme Light: https://ducthang142.github.io/BC32_Capstone/themeLight.html 
+Theme Dark: https://ducthang142.github.io/BC32_Capstone/themeDark.html
+
+Link youtube
+Châu Lâm Thanh Khuyên: https://www.youtube.com/watch?v=0sE7NGrLev4
